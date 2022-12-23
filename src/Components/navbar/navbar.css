@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li a.active{
+    color: #77f5ab;
+    font-weight: bold;
+}
+.nav-btn{
+    min-width: 170px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 11px 20px;
+    border-radius: 5px;
+    background-color: #00a3ff;
+    background-image: linear-gradient(38deg, #00a3ff, #62d6f4 33%, #3cff8b 66%, #35f787);
+    -webkit-transition: letter-spacing 300ms ease, color 300ms ease;
+    transition: letter-spacing 300ms ease, color 300ms ease;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+    text-decoration: none;
+    border: none;
+    align-self: flex-end;
+}
+.nav-hr{
+    color: #978b8b;
+    
+}
+.nav-btn:hover{
+    letter-spacing: 2px; 
+}
+.nav-logo {
+    height: 30px;
+} 
+ul{
+    display: flex;
+    width: 100%;
+}
+li{
+    list-style: none;
+   
+ 
+}
+.navBar{
+    display: flex;
+   justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    padding: 0 17px;
+
+   
+}
+
+.nav-btn{
+    justify-content: right;
+   
+}
+li a{
+    color: rgb(118, 115, 115);
+text-decoration: none;
+font-size: 1rem;
+
+}
+li a:hover{
+    color: rgb(78, 76, 76);
+font-weight: 300;
+
+}
+.menuToggle-main
+{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: none;
+  align-items: center;
+  background-image: linear-gradient(135deg, #00a3ff, #3cff8b 49%, #35f787);
+  border-radius:6px;
+  z-index: 10;
+height: 60px;
+width: 60px;
+justify-content: center;
+
+}
+.menu-img{
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    color: #3cff8b;
+}
+
+ @media only screen and (max-width: 982px) {
+    ul{
+        transform-origin: top center;
+        transform: scaleY(0);
+    }
+    ul.active{
+        transition: transform .5s;
+        display: block;
+      justify-content: flex-start;
+        width: 100%;
+        transform: scaleY(1);
+z-index: 1;
+position: fixed;
+background-color: white;
+    }
+  
+    ul.active li{
+        list-style: none;
+     text-align: left
+    }
+    .navBar {
+       display: block;
+       text-align: left;
+     
+    }
+    .menuToggle-main{
+        display: flex !important;
+        cursor: pointer;
+      
+     }
+}
+@media only screen and (max-width: 982px) {
+    .nav-logo {
+margin-top: 20px;
+    }} 
+

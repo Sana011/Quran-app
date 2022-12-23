@@ -1,0 +1,182 @@
+.goals-outer-container{
+    margin-top: 30px;
+    background-color: black;
+ background-image: linear-gradient(0deg, #141415, rgba(20, 20, 21, 0.82) 50%, rgba(20, 20, 21, 0));
+}
+.goals-heading{
+    padding-top: 30px;
+    background-image: linear-gradient(111deg, #00a3ff, #62d6f4 23%, #3cff8b 66%, #35f787);
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+        margin-top: 20px;
+    margin-bottom: 10px; 
+     font-family: Manrope, sans-serif; 
+    color: #323232; 
+    font-size: 70px;
+    line-height: 1.2;
+     font-weight: 700;
+}
+.goals-para{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.frame-1{
+   position: absolute;
+   width: 80%;
+   height: 90%;
+   z-index: 1;
+   background-image: linear-gradient(0deg, #1d1e1f, rgba(29, 30, 30, 0));
+}
+.streak{
+    position: absolute;
+    width:  75%;
+    height: 88%;
+    background-image: linear-gradient(0deg, #1d1e1f, rgba(29, 30, 30, 0));
+}
+.goals-row-1{
+    background-color: #1D1E1F;
+border-radius: 15px;
+}
+
+.goals-row{
+    display: flex;
+     gap: 1rem !important;
+   justify-content: space-evenly;
+}
+.challenges-img{
+    position: absolute;
+    width:  70%;
+    height: 80%;
+    background-image: linear-gradient(0deg, #1d1e1f, rgba(29, 30, 30, 0));
+}
+.challenge-heading{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.challange-para{
+    color: white;
+    text-align: center;
+
+}
+
+.streak-heading{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2rem;  
+   
+}
+.streak-para{
+    color: white;
+    text-align: center; 
+  
+}
+
+.content-goal{
+    position: absolute;
+    background-color: #1D1E1F;
+    z-index: 10;
+    bottom: 30px;
+    height: 85px;
+    
+    /* box-shadow: 0 -40px 50px  rgba(0, 0, 0, 0.7); */
+}
+.heading-container-2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 50px;
+    font-family: Manrope, sans-serif;
+    text-align: center;
+}
+.cards-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 20px !important;
+    flex-wrap: wrap;
+}
+.cards-body{
+    background-color: #1D1E1F;
+    width: 30%;
+    min-height: 40%;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* media query for cards */
+@media only screen and (max-width: 860px) {
+    .cards-body {
+    width: 45%;
+    }
+  }
+  @media only screen and (max-width: 860px) {
+    .cards-body {
+    width: 60%;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .cards-body {
+    width: 100%;
+    }
+  }
+.name-email{
+color: white;
+}
+.cards-con{
+    display: flex;
+   align-items: center;
+}
+
+.testimonial-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.long-para{
+    color: white;
+    text-align: justify;
+}
+
+.show-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -30px;
+    font-weight: 600; 
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    z-index: 10 !important;
+    border: none;
+    min-width: 180px;
+    /* background-color: #00a3ff; */
+    background-image: linear-gradient(38deg, #00a3ff, #62d6f4 33%, #3cff8b 66%, #35f787);
+}

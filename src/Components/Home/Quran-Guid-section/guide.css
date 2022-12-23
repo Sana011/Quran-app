@@ -1,0 +1,115 @@
+p{
+    color: #3b3939;
+}
+.guide{
+    background-color: #F4F8FB;
+    margin-bottom: 40px;
+    padding-bottom: 40px !important;
+    width: 100%;
+    min-height: 500px;
+}
+/* .bottom-heading{
+    justify-content: flex-end;
+} */
+.guide-heading{
+    background-image: linear-gradient(111deg, #00a3ff, #62d6f4 23%, #3cff8b 66%, #35f787);
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+        margin-top: 20px;
+    margin-bottom: 10px; 
+     font-family: Manrope, sans-serif; 
+    color: #323232; 
+    font-size: 70px;
+    line-height: 1.2;
+     font-weight: 800;
+}
+.guidepara{
+font-size: 1.2rem;
+text-align: center;
+}
+
+.continer-guide{
+    margin-top: 70px;
+    padding-top: 60px;
+}
+
+.Images-position{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+.Images-position1{
+    top: 50%;
+}
+.Images-position2{
+    top: -50%;
+    align-items: flex-end;
+}
+.voiceIconImg{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+     position: absolute;
+     left: 20%;
+     top: 3%;
+   
+   z-index: -1;
+     overflow: hidden;
+     border-radius: 14px;
+}
+.PhoneImg1{
+    width: 70%;
+    position: absolute;
+  height: 70%;
+  z-index: -1;
+}
+
+
+ .aytal-kursi{
+    width: 65%;
+    object-fit: cover;
+     position: absolute;
+     left: 15%;
+     top: 2.3%;
+     right: 4.9%;
+     bottom: 2.3%; 
+   z-index: -1;
+     overflow: hidden;
+     border-radius: 14px; 
+     height: 60%; 
+     object-fit: cover;
+     /* margin-top: -380px;
+    overflow: hidden; */ 
+ }
+/* .guide-row-2 {
+    height: 300px;
+    width: 50%;
+    background-color: white;
+} */
+
+.icon1{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 25px 10px;
+    border-radius: 20px;
+}
+.testing{
+    background-color: white;
+    width: 100%;
+    min-height: 600px;position: relative;
+    overflow: hidden;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+}
+.PhoneImg2{
+    width: 80%;
+    position: absolute;
+  height: 80%;
+  z-index: -1;
+}

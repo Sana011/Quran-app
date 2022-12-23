@@ -1,0 +1,74 @@
+.footer-logo{
+
+width: 30px;
+}
+.icon-holde-end{
+display: flex !important;
+align-items: center !important;
+margin-left: 70px;
+}
+.download{
+    padding-left: 4px;
+    color: #716d6d;
+}
+.des{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #00a3ff, #54e0d2 33%, #3cff8b 66%, #35f787);
+    padding: 10px;
+}
+.dowload-app-1{
+    display: flex;
+   gap: 25px;
+}
+.download-icon-1{
+    width: 30%;
+    height: 30%;
+    line-height: 3cm;
+}
+.journey-h1{
+   
+    margin-bottom: 10px;
+    font-family: Manrope, sans-serif;
+    color: #323232;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    line-height: 2.5cm;
+}
+.journey-container{
+    margin-top: 40px;
+    background-color: #F4F8FB;
+  padding: 90px 0;  
+  overflow: hidden;
+}
+.Inner{
+    position: relative;
+    height: 85%;
+    width: 85%;
+
+}
+.Item{
+    position: absolute;
+    width: 360px;
+    height: 780px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    margin: auto;
+    object-fit: cover;
+    border-radius: 50px !important;
+    overflow: hidden;
+  
+
+}
+.handIphone {
+    background-image: url(../../../images/handIphone.png);
+    width: 700px;
+    height: 1000px; 
+   
+   
+}
+

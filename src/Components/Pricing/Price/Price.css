@@ -1,0 +1,140 @@
+.bg-img{
+   min-width: 100vw;
+   min-height: 90vh;
+   background-size: cover;
+   background-image: url(../../../images/wide-dots-panel.jpeg);
+   background-position: center;
+   object-fit: cover;
+   background-color: #e9f6f0;
+overflow-x: hidden;
+} 
+.pricing-feature-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricingpkg-row{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.price-cards-cols{
+    border: 2px solid #D1D5DB;
+    margin-top: 26px;
+    border-radius: 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.sub-para{
+    font-size: 1.2rem;
+}
+.subscribe-heading{
+    padding-top: 50px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600; 
+}
+.months-heading{
+    border-bottom: 1px solid #D1D5DB;
+padding-left: 5px;
+}
+.dollar-price{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D5DB;
+    color: black;
+   
+}
+.per-month{
+    font-size: 1rem;
+}
+.billed-p{
+    border-bottom: 1px solid #D1D5DB;
+    padding: 10px 0;
+    text-align: center;
+    color: #8e9094;
+   
+}
+.free-trail-p{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.free-trail{
+   padding: 9px;
+   text-align: center;
+   background-color: #E5E7EB;
+}
+.free-trail1{
+    padding: 9px;
+    text-align: center;
+    background-color: #DAF1F7;
+ }
+.free-trail p{
+    margin-bottom: 0;
+}
+.price-cards-cols-2{
+    border: 2px solid #D1D5DB;
+    border-radius: 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.dollar-pric-1{
+    color:#57D798;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D5DB;
+}
+.text-through{
+    text-decoration: line-through;
+}
+.monts{
+    display: flex;
+}
+.discount{
+    font-size: 12px;
+    justify-content: flex-end;
+   font-weight: bold;
+    padding: 5px 5px;
+    color: #57D798;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-top: 3px;
+    box-shadow: 0 0 10px #e9e6e6;
+    background-color: white;
+    margin-right: 10px;
+}
+.trail-buttons{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.trail-btn-1{
+  
+    padding: 10px 0;
+    width: 90%;
+    border: none;
+    background-color: #1E3A8A;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.trail-btn{
+
+      padding: 10px 0;
+      width: 90%;
+      border: none;
+      background-color: #9CA3AF;
+      border-radius: 5px;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+  }
+

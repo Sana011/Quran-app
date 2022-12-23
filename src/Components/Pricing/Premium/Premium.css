@@ -1,0 +1,41 @@
+.pricing-fea{
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.feature-pricing-h3{
+    text-align: center;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #DAFFEB;
+   
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fet-col{
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    min-width: 20px;
+    text-align: center;
+   
+}
+.pricing-feature-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cico{
+    position: absolute;
+    padding: 20px;
+}
+.col-fea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

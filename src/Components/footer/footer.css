@@ -1,0 +1,43 @@
+.footer-logod{
+    width: 100px;
+}
+.icon-row{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+   border-bottom: 1px solid rgb(204, 205, 207);
+    align-items: center;
+}
+.icon-row .fa-brands{
+    padding: 10px;
+    font-size: 30px;
+}
+.follow-us{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .footer-container{
+    
+} */
+.footer-links{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.f-links:hover{
+    border-bottom: 1px solid #00a3ff;
+    list-style: none;
+}
+@media only screen and (max-width: 976px) {
+    .footer-links ul li{
+     flex-wrap: wrap;
+     color: black;
+     padding: 0 10px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .footer-links ul li {
+     color: black;
+    }
+  }

@@ -1,0 +1,635 @@
+.Donation-row{
+    display: flex;
+}
+.body{
+  overflow: hidden;
+}
+.col1{
+    padding: 0 10px;
+}
+.menImg{
+border-radius: 10px;
+margin-top: 100px;
+}
+.girl{
+    border-radius: 10px;
+}
+.text-gradient-1 {
+/* padding-bottom: 10px; */
+background-image: linear-gradient(45deg, #00a3ff, #62d6f4 34%, #3cff8b 66%, #35f787);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 100px;
+font-size: 70px;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.donation-p{
+font-size: 20px;
+color: lightslategray;
+margin-bottom: 20px;
+}
+.donation-btn{
+display: flex;
+justify-content: center;
+
+}
+.donat-btn{
+padding: 10px 5px;
+margin: 8px;
+width: 170px;
+color: white;
+border: none;
+border-radius: 5px;
+background-image: linear-gradient(38deg, #00a3ff, #62d6f4 33%, #3cff8b 66%, #35f787);
+} 
+.apply-btn{
+margin: 8px;
+border-radius: 5px;
+padding: 10px 5px;
+width: 170px;
+color: white;
+border: none;
+background-color: black;
+} 
+.don-log-para{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.girls-img{
+    border-radius: 10px;
+}
+.boys-img{
+    border-radius: 10px;
+}
+.don-long-paragph p{
+line-height: 30px;
+color: #5a5b5b;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1rem;
+}
+.hh{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+/* klzxcxkcnx */
+
+.faq-section {
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 10vh 0 0;
+}
+.faq-title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+.faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #E91E63;
+    bottom: -25px;
+    margin-left: -30px;
+}
+.faq-title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+  padding: 0px;
+  border: none;
+  background: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+    background: rgba(233, 30, 99, 0.1);
+    padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+ 
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+  background: #E91E63;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.faq .card .card-body {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top: 10px;
+  }
+}
+
+ 
+.accordion {
+display: flex;
+flex-direction: column;
+padding: 0 100px;
+}
+
+summary {
+ display: block;
+ margin: 0 auto;
+ cursor: pointer;
+ background: white;
+ padding: 2rem 2rem;
+ border-radius: 10px;
+
+}
+
+details {
+ display: block;
+ margin: 0 auto;
+ width: 100%;
+ margin-bottom: 1rem;
+ background-color: white;
+ transition: width 2s height 2s;
+ transform-origin: 0%;
+ transition-delay: 3s;
+
+}
+
+details p {
+ margin: 1rem auto;
+
+ font-size: 14px;
+
+}
+
+summary > * {
+ display: inline;
+ text-align: justify;
+ position: relative;
+}
+
+.accodian-con{
+    background-color: #F8F8F8;
+}
+ .faq-heading{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+ }
+ .gurntee-h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  background-image: linear-gradient(111deg, #00a3ff, #62d6f4 33%, #3cff8b 66%, #35f787);
+  -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .gurntee-parent{
+  display: flex;
+ }
+ .gurntee-parent{
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+ }
+ .grnte-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ }
+ .dot-off{
+  width: 20px;
+  height: 20px;
+  background-color: #00a3ff;
+  border-radius: 50px;
+ }
+ .head-ng h4{
+  padding-top: 15px;
+  margin-top: 10px;
+ }
+ .form-donation{
+  width: 400px;
+ 
+ }
+
+ .faq-arrow{
+  position: absolute;
+  right:0;
+  left: 85%;
+ }
+ .upangel{
+  position: absolute;
+  right:0;
+  left: 90%;
+ }
+.donatio-form{
+ padding: 0;
+  width: 400px;
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid #B1B1B1;
+  border-radius: 5px;
+}
+.form-heading{
+text-align: center;
+background-color: #e4e7e9;
+border-bottom: 1px solid #B1B1B1;
+margin: 0;
+padding: 10px;
+}
+.form-donation-fields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pkges-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.monthly-btn{
+  padding: 5px 50px;
+  margin: 14px 5px;
+  border: 1px solid #B1B1B1;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  
+}
+.one-time-btn{
+  padding: 5px 50px;
+  margin: 14px 5px;
+  border: none;
+  border: 1px solid #B1B1B1;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.fields{
+  padding: 0px 30px;
+}
+.email-addres{
+  margin-bottom: 10px;
+}
+.phn-num{
+  margin-bottom: 10px;
+}
+.next-btn-div{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.next-btn{
+  margin-top: 20px;
+  padding: 10px 155px;
+  border: none;
+  background-color: #3C464F;
+  border-radius: 5px;
+}
+.monthly-amount{
+  margin-bottom: 10px;
+}
+.for-col{
+  margin-bottom: 10px;
+}
+.selection{
+  width: 100%;
+  padding: 10px;
+  border:1px solid #B1B1B1 ;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 1003px) {
+  .Donation-row{
+   flex-wrap: wrap;
+   display: flex;
+   flex-direction: column;
+ margin-bottom: 5px;
+ margin-top: 5px;
+   justify-content: center;
+   align-items: center;
+
+  }
+  .girl{
+  margin-top: 10px;
+   }
+   .text-gradient-1{
+ font-size: 35px;
+ text-align: center;
+ 
+   }
+   .donation-p {
+   font-size: 15px;
+   text-align: center;
+     }
+     .girls-img {
+     width: 100%;
+     margin-bottom: 10px;
+        }
+        .boys-img {
+          width: 100%;
+          margin-bottom: 10px;
+             }
+   
+}
+@media only screen and (min-width: 1170px) {
+  .girls-img {
+width: 95%;
+height: 85%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1168px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 85%;
+      }
+}
+@media only screen and (min-width: 1154px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1148px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1142px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1120px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1103px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1093px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+}
+@media only screen and (min-width: 1083px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 1069px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 1045px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 1021px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 1011px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 1005px) {
+  .girls-img {
+width: 85%;
+height: 75%;
+  }
+  .boys-img {
+    width: 95%;
+      }
+      
+}
+@media only screen and (min-width: 975px) {
+  .girls-img {
+width: 105%;
+height: 75%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 970px) {
+  .girls-img {
+width: 105%;
+height: 75%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 952px) {
+  .girls-img {
+width: 105%;
+height: 75%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 936px) {
+  .girls-img {
+width: 105%;
+height: 75%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 912px) {
+  .girls-img {
+width: 105%;
+height: 75%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 968px) {
+  .girls-img {
+width: 105%;
+height: 105%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (min-width: 804px) {
+  .girls-img {
+width: 95%;
+height: 95%;
+  }
+  .boys-img {
+    width: 105%;
+      }
+      
+}
+@media only screen and (max-width: 600px) {
+  .hh {
+font-size: 25px;
+  }
+ 
+      
+}
+@media only screen and (max-width: 748px) {
+  .faq-arrow {
+left: 40%;
+  }
+  .details p{
+   font-size:8px;
+      }
+     
+      
+}
+@media only screen and (max-width: 911px) {
+  .faq-arrow {
+left: 86%;
+  }}
+  @media only screen and (max-width: 700px) {
+    .summary {
+  width: 200%;
+    }}

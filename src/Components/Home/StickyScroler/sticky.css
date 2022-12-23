@@ -1,0 +1,64 @@
+.scrolspy{
+    position: relative;
+   
+}
+
+
+.sticky-para{
+    font-size: 25px;
+}
+.scroll-row{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+   
+
+}
+.scroll-row::-webkit-scrollbar{
+    display: none;
+}
+/* .scroller{
+    
+} */
+
+.trustedNum p{
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+}
+.num{
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(128deg, #60aef8, #3cff8b 50%, #35f787);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.sticky-Heading{
+ 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Manrope, sans-serif;
+    color: #323232;
+    font-size: 70px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+.trusted-heading{
+    font-size:25px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+.trusted-para{
+    font-size: 25px;
+}
